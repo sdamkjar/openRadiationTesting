@@ -1,0 +1,40 @@
+Resource Usage Report for MyFirstProject 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CLKINT          2 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           1 use
+
+Carry cells:
+ARI1            23 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            23 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 5
+I/O primitives: 4
+INBUF          1 use
+OUTBUF         3 uses
+
+
+Global Clock Buffers: 2 of 8 (25%)
+
+
+Total LUTs:    24
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  23 + 0 + 0 + 0 = 23;
+Total number of LUTs after P&R:  24 + 0 + 0 + 0 = 24;
+

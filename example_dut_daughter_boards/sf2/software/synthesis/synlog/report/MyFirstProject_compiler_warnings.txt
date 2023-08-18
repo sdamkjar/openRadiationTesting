@@ -1,0 +1,6 @@
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\OSC_0\MyFirstProject_OSC_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\OSC_0\MyFirstProject_OSC_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\OSC_0\MyFirstProject_OSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\OSC_0\MyFirstProject_OSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\OSC_0\MyFirstProject_OSC_0_OSC.vhd":11:10:11:27|Signal RCOSC_25_50MHZ_CCC is floating; a simulation mismatch is possible.
+

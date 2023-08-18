@@ -1,0 +1,153 @@
+# Synopsys Constraint Checker, version map201609actrcp1, Build 005R, built Jan 25 2017
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Sep 20 14:33:43 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "my_mss"
+Constraint File(s):      "C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\designer\my_mss\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                               Ending                                                 |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+my_mss_FCCC_0_FCCC|GL0_net_inferred_clock              my_mss_FCCC_0_FCCC|GL0_net_inferred_clock              |     10.000           |     No paths         |     No paths         |     No paths                         
+my_mss_FCCC_0_FCCC|GL0_net_inferred_clock              my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     my_mss_FCCC_0_FCCC|GL0_net_inferred_clock              |     Diff grp         |     No paths         |     No paths         |     No paths                         
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+=========================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:DEVRST_N
+p:FAB_RESET_N
+p:FIC_0_LOCK
+p:FIC_2_APB_M_PADDR[2]
+p:FIC_2_APB_M_PADDR[3]
+p:FIC_2_APB_M_PADDR[4]
+p:FIC_2_APB_M_PADDR[5]
+p:FIC_2_APB_M_PADDR[6]
+p:FIC_2_APB_M_PADDR[7]
+p:FIC_2_APB_M_PADDR[8]
+p:FIC_2_APB_M_PADDR[9]
+p:FIC_2_APB_M_PADDR[10]
+p:FIC_2_APB_M_PADDR[11]
+p:FIC_2_APB_M_PADDR[12]
+p:FIC_2_APB_M_PADDR[13]
+p:FIC_2_APB_M_PADDR[14]
+p:FIC_2_APB_M_PADDR[15]
+p:FIC_2_APB_M_PENABLE
+p:FIC_2_APB_M_PRDATA[0]
+p:FIC_2_APB_M_PRDATA[1]
+p:FIC_2_APB_M_PRDATA[2]
+p:FIC_2_APB_M_PRDATA[3]
+p:FIC_2_APB_M_PRDATA[4]
+p:FIC_2_APB_M_PRDATA[5]
+p:FIC_2_APB_M_PRDATA[6]
+p:FIC_2_APB_M_PRDATA[7]
+p:FIC_2_APB_M_PRDATA[8]
+p:FIC_2_APB_M_PRDATA[9]
+p:FIC_2_APB_M_PRDATA[10]
+p:FIC_2_APB_M_PRDATA[11]
+p:FIC_2_APB_M_PRDATA[12]
+p:FIC_2_APB_M_PRDATA[13]
+p:FIC_2_APB_M_PRDATA[14]
+p:FIC_2_APB_M_PRDATA[15]
+p:FIC_2_APB_M_PRDATA[16]
+p:FIC_2_APB_M_PRDATA[17]
+p:FIC_2_APB_M_PRDATA[18]
+p:FIC_2_APB_M_PRDATA[19]
+p:FIC_2_APB_M_PRDATA[20]
+p:FIC_2_APB_M_PRDATA[21]
+p:FIC_2_APB_M_PRDATA[22]
+p:FIC_2_APB_M_PRDATA[23]
+p:FIC_2_APB_M_PRDATA[24]
+p:FIC_2_APB_M_PRDATA[25]
+p:FIC_2_APB_M_PRDATA[26]
+p:FIC_2_APB_M_PRDATA[27]
+p:FIC_2_APB_M_PRDATA[28]
+p:FIC_2_APB_M_PRDATA[29]
+p:FIC_2_APB_M_PRDATA[30]
+p:FIC_2_APB_M_PRDATA[31]
+p:FIC_2_APB_M_PREADY
+p:FIC_2_APB_M_PSEL
+p:FIC_2_APB_M_PSLVERR
+p:FIC_2_APB_M_PWDATA[0]
+p:FIC_2_APB_M_PWDATA[1]
+p:FIC_2_APB_M_PWDATA[2]
+p:FIC_2_APB_M_PWDATA[3]
+p:FIC_2_APB_M_PWDATA[4]
+p:FIC_2_APB_M_PWDATA[5]
+p:FIC_2_APB_M_PWDATA[6]
+p:FIC_2_APB_M_PWDATA[7]
+p:FIC_2_APB_M_PWDATA[8]
+p:FIC_2_APB_M_PWDATA[9]
+p:FIC_2_APB_M_PWDATA[10]
+p:FIC_2_APB_M_PWDATA[11]
+p:FIC_2_APB_M_PWDATA[12]
+p:FIC_2_APB_M_PWDATA[13]
+p:FIC_2_APB_M_PWDATA[14]
+p:FIC_2_APB_M_PWDATA[15]
+p:FIC_2_APB_M_PWDATA[16]
+p:FIC_2_APB_M_PWDATA[17]
+p:FIC_2_APB_M_PWDATA[18]
+p:FIC_2_APB_M_PWDATA[19]
+p:FIC_2_APB_M_PWDATA[20]
+p:FIC_2_APB_M_PWDATA[21]
+p:FIC_2_APB_M_PWDATA[22]
+p:FIC_2_APB_M_PWDATA[23]
+p:FIC_2_APB_M_PWDATA[24]
+p:FIC_2_APB_M_PWDATA[25]
+p:FIC_2_APB_M_PWDATA[26]
+p:FIC_2_APB_M_PWDATA[27]
+p:FIC_2_APB_M_PWDATA[28]
+p:FIC_2_APB_M_PWDATA[29]
+p:FIC_2_APB_M_PWDATA[30]
+p:FIC_2_APB_M_PWDATA[31]
+p:FIC_2_APB_M_PWRITE
+p:INIT_DONE
+p:MSS_READY
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

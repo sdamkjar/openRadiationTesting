@@ -1,0 +1,24 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+
+Date      :  Thu Sep 20 14:32:33 2018
+Project   :  C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject
+Component :  my_mss
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/FCCC_0/my_mss_FCCC_0_FCCC.vhd
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/OSC_0/my_mss_OSC_0_OSC.vhd
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/my_mss.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/subsystem.bfm
+

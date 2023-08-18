@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>1738618688</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\CMSIS\m2sxxx.h</file>
+            <file>$PROJ_DIR$\drivers_config\sys_config\sys_config_mss_clocks.h</file>
+            <file>$PROJ_DIR$\CMSIS\system_m2sxxx.h</file>
+            <file>$PROJ_DIR$\drivers\mss_uart\mss_uart_regs.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_sys_services.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_uart.pbi</file>
+            <file>$PROJ_DIR$\hal\CortexM3\cortex_nvic.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_m2sxxx.o</file>
+            <file>$PROJ_DIR$\hal\CortexM3\cortex_nvic.h</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_sys_services.h</file>
+            <file>$PROJ_DIR$\CMSIS\mss_assert.h</file>
+            <file>$PROJ_DIR$\CMSIS\hw_reg_io.h</file>
+            <file>$PROJ_DIR$\drivers\mss_gpio\mss_gpio.h</file>
+            <file>$PROJ_DIR$\drivers\mss_nvm\mss_nvm.h</file>
+            <file>$PROJ_DIR$\drivers_config\sys_config\sys_config.h</file>
+            <file>$PROJ_DIR$\CMSIS\sys_init_cfg_types.h</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_comblk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\read.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\vector_table.pbi</file>
+            <file>$PROJ_DIR$\drivers\mss_hpdma\mss_hpdma.h</file>
+            <file>$PROJ_DIR$\drivers_config\sys_config\sys_config.c</file>
+            <file>$PROJ_DIR$\hal\CortexM3\EWARM\hal.s</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_comblk_page_handler.h</file>
+            <file>$PROJ_DIR$\hal\CortexM3\EWARM\hw_reg_access.s</file>
+            <file>$PROJ_DIR$\drivers\mss_uart\mss_uart.h</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\low_level_init.c</file>
+            <file>$PROJ_DIR$\CMSIS\system_m2sxxx.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\vector_table.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\write.c</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_comblk.c</file>
+            <file>$PROJ_DIR$\drivers\mss_gpio\mss_gpio.c</file>
+            <file>$PROJ_DIR$\drivers\mss_hpdma\mss_hpdma.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\startup_m2sxxx.s</file>
+            <file>$PROJ_DIR$\drivers\mss_nvm\mss_nvm.c</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_sys_services.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\default_irqs.c</file>
+            <file>$PROJ_DIR$\drivers\mss_uart\mss_uart.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\read.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_comblk.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\MyFirstProject_MSS_CM3_hw_platform.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\read.pbi</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\default_irqs.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_nvm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hw_reg_access.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_sys_services.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\write.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\write.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm3.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_hpdma.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\default_irqs.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys_config.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_nvm.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_hpdma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cortex_nvic.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\vector_table.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_m2sxxx.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\mss_comblk.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\cortex_nvic.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\low_level_init.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_m2sxxx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\low_level_init.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys_config.pbi</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>IARCHIVE</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hal\CortexM3\cortex_nvic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 79 43 80 45 74 46 10 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers_config\sys_config\sys_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 55 79 43 80 45 74 46 66 42 54 57 48 15 14 1</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hal\CortexM3\EWARM\hal.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hal\CortexM3\EWARM\hw_reg_access.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\low_level_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 55 79 43 80 45 74 46 66 42 54 57 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\system_m2sxxx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 55 79 43 80 45 74 46 66 42 54 57 48 14 1 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\vector_table.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\write.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_sys_services\mss_comblk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 0 55 79 43 80 45 74 46 66 42 54 57 48 22 10 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_gpio\mss_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 0 55 79 43 80 45 74 46 66 42 54 57 48 10 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_hpdma\mss_hpdma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 47 43 80 45 74 46 19 0 55 79 66 42 54 57 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\startup_m2sxxx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_nvm\mss_nvm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 55 79 43 80 45 74 46 66 42 54 57 48 10 47 2 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_sys_services\mss_sys_services.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 0 55 79 43 80 45 74 46 66 42 54 57 48 22 16 10 47 65 38 61</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\default_irqs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_uart\mss_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24 0 55 79 43 80 45 74 46 66 42 54 57 48 77 38 3 10 47 11 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\read.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\hal\hal_assert.h</file>
+            <file>$PROJ_DIR$\CMSIS\m2sxxx.h</file>
+            <file>$PROJ_DIR$\drivers_config\sys_config\sys_config_mss_clocks.h</file>
+            <file>$PROJ_DIR$\CMSIS\system_m2sxxx.h</file>
+            <file>$PROJ_DIR$\MyFirstProject_hw_platform.h</file>
+            <file>$PROJ_DIR$\drivers\mss_uart\mss_uart_regs.h</file>
+            <file>$PROJ_DIR$\hal\CortexM3\EWARM\cpu_types.h</file>
+            <file>$PROJ_DIR$\hal\CortexM3\cortex_nvic.c</file>
+            <file>$PROJ_DIR$\hal\CortexM3\cortex_nvic.h</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_sys_services.h</file>
+            <file>$PROJ_DIR$\CMSIS\mss_assert.h</file>
+            <file>$PROJ_DIR$\drivers\mss_timer\mss_timer.h</file>
+            <file>$PROJ_DIR$\hal\hw_reg_access.h</file>
+            <file>$PROJ_DIR$\CMSIS\hw_reg_io.h</file>
+            <file>$PROJ_DIR$\drivers\mss_gpio\mss_gpio.h</file>
+            <file>$PROJ_DIR$\drivers\mss_nvm\mss_nvm.h</file>
+            <file>$PROJ_DIR$\hal\CortexM3\EWARM\hw_macros.h</file>
+            <file>$PROJ_DIR$\drivers_config\sys_config\sys_config.h</file>
+            <file>$PROJ_DIR$\CMSIS\sys_init_cfg_types.h</file>
+            <file>$PROJ_DIR$\hal\hal.h</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_comblk.h</file>
+            <file>$PROJ_DIR$\drivers\mss_hpdma\mss_hpdma.h</file>
+            <file>$PROJ_DIR$\drivers_config\sys_config\sys_config.c</file>
+            <file>$PROJ_DIR$\hal\CortexM3\EWARM\hal.s</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_comblk_page_handler.h</file>
+            <file>$PROJ_DIR$\hal\CortexM3\EWARM\hw_reg_access.s</file>
+            <file>$PROJ_DIR$\drivers\mss_uart\mss_uart.h</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\low_level_init.c</file>
+            <file>$PROJ_DIR$\CMSIS\system_m2sxxx.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\vector_table.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\write.c</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_comblk.c</file>
+            <file>$PROJ_DIR$\drivers\mss_gpio\mss_gpio.c</file>
+            <file>$PROJ_DIR$\drivers\mss_hpdma\mss_hpdma.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\startup_m2sxxx.s</file>
+            <file>$PROJ_DIR$\drivers\mss_nvm\mss_nvm.c</file>
+            <file>$PROJ_DIR$\drivers\mss_sys_services\mss_sys_services.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\default_irqs.c</file>
+            <file>$PROJ_DIR$\drivers\mss_uart\mss_uart.c</file>
+            <file>$PROJ_DIR$\CMSIS\startup_iar\read.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Release\Obj\default_irqs.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_gpio.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cortex_nvic.pbi</file>
+            <file>$PROJ_DIR$\Release\Exe\MyFirstProject_MSS_CM3_hw_platform.a</file>
+            <file>$PROJ_DIR$\Release\Obj\hw_reg_access.o</file>
+            <file>$PROJ_DIR$\Release\Obj\read.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_nvm.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\write.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\sys_config.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\MyFirstProject_MSS_CM3_hw_platform.pbd</file>
+            <file>$PROJ_DIR$\Release\Obj\low_level_init.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\hal.o</file>
+            <file>$PROJ_DIR$\Release\Obj\startup_m2sxxx.o</file>
+            <file>$PROJ_DIR$\Release\Obj\vector_table.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_comblk.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_hpdma.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_uart.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\system_m2sxxx.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_sys_services.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_nvm.o</file>
+            <file>$PROJ_DIR$\Release\Obj\low_level_init.o</file>
+            <file>$PROJ_DIR$\Release\Obj\system_m2sxxx.o</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_gpio.o</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_sys_services.o</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_uart.o</file>
+            <file>$PROJ_DIR$\Release\Obj\sys_config.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cortex_nvic.o</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_hpdma.o</file>
+            <file>$PROJ_DIR$\Release\Obj\vector_table.o</file>
+            <file>$PROJ_DIR$\Release\Obj\read.o</file>
+            <file>$PROJ_DIR$\Release\Obj\default_irqs.o</file>
+            <file>$PROJ_DIR$\Release\Obj\write.o</file>
+            <file>$PROJ_DIR$\Release\Obj\mss_comblk.o</file>
+            <file>$PROJ_DIR$\main.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>IARCHIVE</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hal\CortexM3\cortex_nvic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 54 42 55 43 52 44 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43 42 54 55 8 52 44 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers_config\sys_config\sys_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 47 54 42 55 43 52 44 51 41 46 48 45 18 17 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17 43 46 18 47 51 55 54 2 1 41 45 42 52 44 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hal\CortexM3\EWARM\hal.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hal\CortexM3\EWARM\hw_reg_access.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\low_level_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 47 54 42 55 43 52 44 51 41 46 48 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47 54 41 46 48 55 43 1 51 45 42 52 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\system_m2sxxx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 47 54 42 55 43 52 44 51 41 46 48 45 17 2 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 47 43 46 17 51 55 54 1 41 45 42 52 44 48 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\vector_table.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\write.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_sys_services\mss_comblk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 1 47 54 42 55 43 52 44 51 41 46 48 45 24 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24 47 54 41 46 48 10 1 55 43 20 51 45 42 52 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_gpio\mss_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 1 47 54 42 55 43 52 44 51 41 46 48 45 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52 1 47 10 51 45 42 44 14 54 41 55 43 46 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_hpdma\mss_hpdma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 21 1 47 54 42 55 43 52 44 51 41 46 48 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54 1 41 46 48 47 21 55 43 10 51 45 42 52 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\startup_m2sxxx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_nvm\mss_nvm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 47 54 42 55 43 52 44 51 41 46 48 45 10 3 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48 41 46 54 3 10 15 47 55 43 1 51 45 42 52 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_sys_services\mss_sys_services.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 1 47 54 42 55 43 52 44 51 41 46 48 45 24 20 10 50 40 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10 1 52 48 40 20 50 24 47 51 55 44 42 49 9 54 41 45 43 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\default_irqs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\mss_uart\mss_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 1 47 54 42 55 43 52 44 51 41 46 48 45 53 40 5 10 13 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47 3 53 54 41 42 43 46 10 45 40 5 13 1 51 55 52 44 48 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\startup_iar\read.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+</project>

@@ -1,0 +1,313 @@
+# Tue Sep 25 01:18:51 2018
+
+Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@N: MO231 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\hdl\mycounter.vhd":18:2:18:3|Found counter in view:work.MyFirstProject(rtl) instance MyCounter_0.Qaux[22:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     6.37ns		  25 /        23
+@N: FP130 |Promoting Net SYSRESET_0_POWER_ON_RESET_N on CLKINT  I_2 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
+0 instances converted, 24 sequential instances remain driven by gated/generated clocks
+
+============================================================================= Gated/Generated Clocks =============================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                         Explanation                                                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       OSC_0.I_RCOSC_25_50MHZ     RCOSC_25_50MHZ         24         MyFirstProject_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
+==================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 135MB)
+
+Writing Analyst data base C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\synwork\MyFirstProject_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 135MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\MyFirstProject.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+@W: MT420 |Found inferred clock MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:OSC_0.N_RCOSC_25_50MHZ_CLKOUT"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Sep 25 01:18:51 2018
+#
+
+
+Top view:               MyFirstProject
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\designer\MyFirstProject\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 7.088
+
+                                                                    Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                      Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     343.4 MHz     10.000        2.912         7.088     inferred     Inferred_clkgroup_0
+======================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                         Ending                                                           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  10.000      7.088  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                                            Arrival          
+Instance                 Reference                                                           Type     Pin     Net            Time        Slack
+                         Clock                                                                                                                
+----------------------------------------------------------------------------------------------------------------------------------------------
+MyCounter_0.Qaux[22]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       FPGA_LED_c     0.108       7.088
+MyCounter_0.Qaux[0]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[0]        0.108       7.229
+MyCounter_0.Qaux[1]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[1]        0.108       7.335
+MyCounter_0.Qaux[2]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[2]        0.108       7.351
+MyCounter_0.Qaux[3]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[3]        0.108       7.367
+MyCounter_0.Qaux[4]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[4]        0.108       7.383
+MyCounter_0.Qaux[5]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[5]        0.108       7.400
+MyCounter_0.Qaux[6]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[6]        0.108       7.416
+MyCounter_0.Qaux[7]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[7]        0.108       7.432
+MyCounter_0.Qaux[8]      MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       Qaux[8]        0.108       7.449
+==============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                                            Required          
+Instance                 Reference                                                           Type     Pin     Net            Time         Slack
+                         Clock                                                                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+MyCounter_0.Qaux[22]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[22]     9.745        7.088
+MyCounter_0.Qaux[21]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[21]     9.745        7.245
+MyCounter_0.Qaux[20]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[20]     9.745        7.261
+MyCounter_0.Qaux[19]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[19]     9.745        7.278
+MyCounter_0.Qaux[18]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[18]     9.745        7.294
+MyCounter_0.Qaux[17]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[17]     9.745        7.310
+MyCounter_0.Qaux[16]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[16]     9.745        7.327
+MyCounter_0.Qaux[15]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[15]     9.745        7.343
+MyCounter_0.Qaux[14]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[14]     9.745        7.359
+MyCounter_0.Qaux[13]     MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       Qaux_s[13]     9.745        7.376
+===============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      2.656
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     7.088
+
+    Number of logic level(s):                1
+    Starting point:                          MyCounter_0.Qaux[22] / Q
+    Ending point:                            MyCounter_0.Qaux[22] / D
+    The start point is clocked by            MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+MyCounter_0.Qaux[22]       SLE      Q        Out     0.108     0.108       -         
+FPGA_LED_c                 Net      -        -       1.123     -           2         
+MyCounter_0.Qaux_s[22]     ARI1     B        In      -         1.231       -         
+MyCounter_0.Qaux_s[22]     ARI1     S        Out     0.308     1.539       -         
+Qaux_s[22]                 Net      -        -       1.117     -           1         
+MyCounter_0.Qaux[22]       SLE      D        In      -         2.656       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 2.912 is 0.672(23.1%) logic and 2.240(76.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+---------------------------------------
+Resource Usage Report for MyFirstProject 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CLKINT          2 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           1 use
+
+Carry cells:
+ARI1            23 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            23 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 5
+I/O primitives: 4
+INBUF          1 use
+OUTBUF         3 uses
+
+
+Global Clock Buffers: 2 of 8 (25%)
+
+
+Total LUTs:    24
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  23 + 0 + 0 + 0 = 23;
+Total number of LUTs after P&R:  24 + 0 + 0 + 0 = 24;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Sep 25 01:18:52 2018
+
+###########################################################]

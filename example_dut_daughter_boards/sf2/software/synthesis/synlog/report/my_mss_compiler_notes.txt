@@ -1,0 +1,59 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\my_mss.vhd":17:7:17:12|Top entity is set to my_mss.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\my_mss.vhd":17:7:17:12|Synthesizing work.my_mss.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd":8:7:8:22|Synthesizing work.my_mss_osc_0_osc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS.vhd":17:7:17:16|Synthesizing work.my_mss_mss.rtl.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\FCCC_0\my_mss_FCCC_0_FCCC.vhd":8:7:8:24|Synthesizing work.my_mss_fccc_0_fccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":174:4:174:21|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":175:4:175:17|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":176:4:176:16|Input SOFT_M3_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":177:4:177:33|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":178:4:178:23|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":179:4:179:23|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":180:4:180:24|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":181:4:181:23|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":182:4:182:24|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":183:4:183:23|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":184:4:184:24|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":185:4:185:23|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+@N|Running in 64-bit mode
+

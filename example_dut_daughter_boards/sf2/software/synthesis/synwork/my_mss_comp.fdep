@@ -1,0 +1,74 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\synthesis\\synwork\\my_mss_comp.srs|-top|work.my_mss|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_vhdl.exe":1480003892
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\location.map":1478829588
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1487966854
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1487966854
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487966854
+#CUR:"C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1537414761
+#CUR:"C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\component\\work\\my_mss\\FCCC_0\\my_mss_FCCC_0_FCCC.vhd":1537497150
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1487966828
+#CUR:"C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\component\\work\\my_mss_MSS\\my_mss_MSS_syn.vhd":1537497074
+#CUR:"C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1534295466
+#CUR:"C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp.vhd":1537414761
+#CUR:"C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\component\\work\\my_mss_MSS\\my_mss_MSS.vhd":1537497074
+#CUR:"C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\component\\work\\my_mss\\OSC_0\\my_mss_OSC_0_OSC.vhd":1537497152
+#CUR:"C:\\Users\\sdamkjar\\Documents\\albertasat\\TRIUMF\\Software\\SMARTFUSION2_TEST\\MyFirstProject\\component\\work\\my_mss\\my_mss.vhd":1537497152
+0			"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+1			"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd" vhdl
+2			"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\FCCC_0\my_mss_FCCC_0_FCCC.vhd" vhdl
+3			"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS_syn.vhd" vhdl
+4			"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS.vhd" vhdl
+5			"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+6			"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd" vhdl
+7			"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\my_mss.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 -1
+3 -1
+4 3
+5 -1
+6 5
+7 6 4 2 1
+#Dependency Lists(Users Of)
+0 1
+1 7
+2 7
+3 4
+4 7
+5 6
+6 7
+7 -1
+#Design Unit to File Association
+module work my_mss 7
+arch work my_mss rtl 7
+module work my_mss_osc_0_osc 6
+arch work my_mss_osc_0_osc def_arch 6
+module work rcosc_1mhz 5
+arch work rcosc_1mhz def_arch 5
+module work rcosc_25_50mhz 5
+arch work rcosc_25_50mhz def_arch 5
+module work xtlosc 5
+arch work xtlosc def_arch 5
+module work rcosc_1mhz_fab 5
+arch work rcosc_1mhz_fab def_arch 5
+module work rcosc_25_50mhz_fab 5
+arch work rcosc_25_50mhz_fab def_arch 5
+module work xtlosc_fab 5
+arch work xtlosc_fab def_arch 5
+module work my_mss_mss 4
+arch work my_mss_mss rtl 4
+module work mss_010 3
+arch work mss_010 def_arch 3
+module work my_mss_fccc_0_fccc 2
+arch work my_mss_fccc_0_fccc def_arch 2
+module work coreresetp 1
+arch work coreresetp rtl 1
+module work coreresetp_pcie_hotreset 0
+arch work coreresetp_pcie_hotreset rtl 0

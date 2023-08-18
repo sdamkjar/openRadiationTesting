@@ -1,0 +1,22 @@
+//==============================================================================
+// execUserPreload() is executed upon connection to the target hardware prior
+// to downloding the code.
+//==============================================================================
+execUserPreload()
+{
+    __message "---------------------------------------------------------------";
+    __message "----------------------execUserPreload()------------------------";
+
+    // Disable Watchdog.
+    __message "Disabling watchdog";
+    __writeMemory32( 0x00000000, 0x4003806C, "Memory" );
+
+    // Remap RAM to address 0x00000000.
+    __message "Disable ENVM REMAP";
+    __writeMemory32( 0x00000000, 0x40038010, "Memory" );
+    __message "Enable ESRAM REMAP";
+    __writeMemory32( 0x00000001, 0x40038000, "Memory" );
+    __message "Disable DDR REMAP";
+    __writeMemory32( 0x00000000, 0x40038008, "Memory" );
+    __message "...............................................................";
+}

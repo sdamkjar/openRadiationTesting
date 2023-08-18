@@ -1,0 +1,192 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+Date: Tue Sep 25 01:18:54 2018
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 144 TQ         |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+----------------------------------------------------------------------------------------------------------------------+
+| Topcell | MyFirstProject                                                                                                       |
+| Format  | EDIF                                                                                                                 |
+| Source  | C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\MyFirstProject.edn |
++---------+----------------------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 24   | 12084 | 0.20       |
+| DFF                       | 23   | 12084 | 0.19       |
+| I/O Register              | 0    | 252   | 0.00       |
+| User I/O                  | 4    | 84    | 4.76       |
+| -- Single-ended I/O       | 4    | 84    | 4.76       |
+| -- Differential I/O Pairs | 0    | 37    | 0.00       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 2    | 8     | 25.00      |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 24   | 23  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 24   | 23  |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 23     | 1    |
+| Total  | 1    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 1            | 0           | 0               |
+| Output I/O                    | 3            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  1    |  3     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  0    | 0.00%      |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  4    | 100.00%    |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------+
+| Fanout | Type    | Name                                              |
++--------+---------+---------------------------------------------------+
+| 24     | INT_NET | Net   : OSC_0_RCOSC_25_50MHZ_O2F                  |
+|        |         | Driver: OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1 |
+|        |         | Source: NETLIST                                   |
+| 23     | INT_NET | Net   : SYSRESET_0_POWER_ON_RESET_N               |
+|        |         | Driver: SYSRESET_0_RNIHNV1/U0_RGB1                |
+|        |         | Source: NETLIST                                   |
++--------+---------+---------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------+
+| Fanout | Type    | Name                                             |
++--------+---------+--------------------------------------------------+
+| 3      | INT_NET | Net   : SYSRESET_0                               |
+|        |         | Driver: SYSRESET_0                               |
+| 2      | INT_NET | Net   : FPGA_LED_c                               |
+|        |         | Driver: MyCounter_0/Qaux[22]                     |
+| 2      | INT_NET | Net   : MyCounter_0/Qaux[0]                      |
+|        |         | Driver: MyCounter_0/Qaux[0]                      |
+| 1      | INT_NET | Net   : OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YNn |
+|        |         | Driver: OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT        |
+| 1      | INT_NET | Net   : SYSRESET_0_RNIHNV1/U0_YNn                |
+|        |         | Driver: SYSRESET_0_RNIHNV1                       |
+| 1      | INT_NET | Net   : MMUART_0_RXD_F2M_c                       |
+|        |         | Driver: MMUART_0_RXD_F2M_ibuf                    |
+| 1      | INT_NET | Net   : M3_LED_c                                 |
+|        |         | Driver: MyFirstProject_MSS_0/MSS_ADLIB_INST      |
+| 1      | INT_NET | Net   : MMUART_0_TXD_M2F_c                       |
+|        |         | Driver: MyFirstProject_MSS_0/MSS_ADLIB_INST      |
+| 1      | INT_NET | Net   : MyCounter_0/Qaux_s[0]                    |
+|        |         | Driver: MyCounter_0/Qaux_RNO[0]                  |
+| 1      | INT_NET | Net   : MyCounter_0/Qaux[1]                      |
+|        |         | Driver: MyCounter_0/Qaux[1]                      |
++--------+---------+--------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------+
+| Fanout | Type    | Name                                             |
++--------+---------+--------------------------------------------------+
+| 3      | INT_NET | Net   : SYSRESET_0                               |
+|        |         | Driver: SYSRESET_0                               |
+| 2      | INT_NET | Net   : FPGA_LED_c                               |
+|        |         | Driver: MyCounter_0/Qaux[22]                     |
+| 2      | INT_NET | Net   : MyCounter_0/Qaux[0]                      |
+|        |         | Driver: MyCounter_0/Qaux[0]                      |
+| 1      | INT_NET | Net   : OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YNn |
+|        |         | Driver: OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT        |
+| 1      | INT_NET | Net   : SYSRESET_0_RNIHNV1/U0_YNn                |
+|        |         | Driver: SYSRESET_0_RNIHNV1                       |
+| 1      | INT_NET | Net   : MMUART_0_RXD_F2M_c                       |
+|        |         | Driver: MMUART_0_RXD_F2M_ibuf                    |
+| 1      | INT_NET | Net   : M3_LED_c                                 |
+|        |         | Driver: MyFirstProject_MSS_0/MSS_ADLIB_INST      |
+| 1      | INT_NET | Net   : MMUART_0_TXD_M2F_c                       |
+|        |         | Driver: MyFirstProject_MSS_0/MSS_ADLIB_INST      |
+| 1      | INT_NET | Net   : MyCounter_0/Qaux_s[0]                    |
+|        |         | Driver: MyCounter_0/Qaux_RNO[0]                  |
+| 1      | INT_NET | Net   : MyCounter_0/Qaux[1]                      |
+|        |         | Driver: MyCounter_0/Qaux[1]                      |
++--------+---------+--------------------------------------------------+
+

@@ -1,0 +1,21 @@
+# Netlist Viewer TCL File
+set_family -name SmartFusion2
+top_module -name my_mss
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd}
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd}
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/hdl/MyCounter.vhd}
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/FCCC_0/my_mss_FCCC_0_FCCC.vhd}
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss_MSS/my_mss_MSS_syn.vhd}
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss_MSS/my_mss_MSS.vhd}
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd}
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/OSC_0/my_mss_OSC_0_OSC.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vhdl/core/coreahblite_addrdec.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vhdl/core/coreahblite_defaultslavesm.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vhdl/core/coreahblite_masterstage.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vhdl/core/coreahblite_slavearbiter.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vhdl/core/coreahblite_slavestage.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vhdl/core/coreahblite_matrix4x16.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vhdl/core/coreahblite_pkg.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/CoreAHBLite_0/rtl/vhdl/core/coreahblite.vhd}
+addfile -view RTL -lib COREAHBLITE_LIB -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/CoreAHBLite_0/rtl/vhdl/core/components.vhd}
+addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss/my_mss.vhd}

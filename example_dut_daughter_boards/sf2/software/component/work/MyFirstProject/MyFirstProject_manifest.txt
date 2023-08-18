@@ -1,0 +1,21 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+
+Date      :  Sun Sep 23 17:04:42 2018
+Project   :  C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject
+Component :  MyFirstProject
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/MyFirstProject/MyFirstProject.vhd
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/MyFirstProject/OSC_0/MyFirstProject_OSC_0_OSC.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/MyFirstProject/subsystem.bfm
+

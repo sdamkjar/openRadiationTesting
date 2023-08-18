@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>my_mss_top</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port my_mss_top:FPGA_LED</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/my_mss_top/pins/my_mss_top:FPGA_LED</crossprobe>
+  </drc>
+</drcreport>

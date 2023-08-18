@@ -1,0 +1,6 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,MSS,10/100/1000 Ethernet,RCOSC_50MHZ
+MyCounter_0/Primitives,24,23,0,0,0,0,0
+MyFirstProject_MSS_0/Primitives,0,0,0,0,1,0,0
+OSC_0/Primitives,0,0,0,1,0,0,1
+Primitives/Primitives,0,0,4,1,0,0,0

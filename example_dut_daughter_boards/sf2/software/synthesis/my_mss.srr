@@ -1,0 +1,742 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: ALBERTASAT-04
+
+# Thu Sep 20 14:33:41 2018
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\my_mss.vhd":17:7:17:12|Top entity is set to my_mss.
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\FCCC_0\my_mss_FCCC_0_FCCC.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS_syn.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\my_mss.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\FCCC_0\my_mss_FCCC_0_FCCC.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS_syn.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd changed - recompiling
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\my_mss.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\my_mss.vhd":17:7:17:12|Synthesizing work.my_mss.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+Post processing for smartfusion2.sysreset.syn_black_box
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd":8:7:8:22|Synthesizing work.my_mss_osc_0_osc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+Post processing for work.rcosc_25_50mhz.def_arch
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+Post processing for work.rcosc_25_50mhz_fab.def_arch
+Post processing for work.my_mss_osc_0_osc.def_arch
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS.vhd":17:7:17:16|Synthesizing work.my_mss_mss.rtl.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss_MSS\my_mss_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+Post processing for work.mss_010.def_arch
+Post processing for work.my_mss_mss.rtl
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\FCCC_0\my_mss_FCCC_0_FCCC.vhd":8:7:8:24|Synthesizing work.my_mss_fccc_0_fccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box.
+Post processing for smartfusion2.ccc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+Post processing for smartfusion2.gnd.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+Post processing for smartfusion2.vcc.syn_black_box
+Post processing for work.my_mss_fccc_0_fccc.def_arch
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":477:8:477:25|Signal soft_ext_reset_out in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":478:8:478:21|Signal soft_reset_f2m in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":479:8:479:20|Signal soft_m3_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":480:8:480:37|Signal soft_mddr_ddr_axi_s_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":481:8:481:27|Signal soft_fddr_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":482:8:482:27|Signal soft_sdif0_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":483:8:483:28|Signal soft_sdif0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":484:8:484:27|Signal soft_sdif1_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":485:8:485:28|Signal soft_sdif1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":486:8:486:27|Signal soft_sdif2_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":487:8:487:28|Signal soft_sdif2_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":488:8:488:27|Signal soft_sdif3_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":489:8:489:28|Signal soft_sdif3_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":490:8:490:30|Signal soft_sdif0_0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":491:8:491:30|Signal soft_sdif0_1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.coreresetp.rtl
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Pruning unused register count_ddr_2(13 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Pruning unused register count_sdif3_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Pruning unused register count_sdif2_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Pruning unused register count_sdif1_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Pruning unused register count_sdif0_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Pruning unused register count_sdif3_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Pruning unused register count_sdif2_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Pruning unused register count_sdif1_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Pruning unused register count_sdif0_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register count_ddr_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register sm2_state(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+Post processing for work.my_mss.rtl
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":174:4:174:21|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":175:4:175:17|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":176:4:176:16|Input SOFT_M3_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":177:4:177:33|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":178:4:178:23|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":179:4:179:23|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":180:4:180:24|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":181:4:181:23|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":182:4:182:24|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":183:4:183:23|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":184:4:184:24|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":185:4:185:23|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\my_mss\OSC_0\my_mss_OSC_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 82MB peak: 83MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 20 14:33:41 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 20 14:33:41 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 20 14:33:41 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\synwork\my_mss_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 20 14:33:42 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Sep 20 14:33:42 2018
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\designer\my_mss\synthesis.fdc
+@L: C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\my_mss_scck.rpt 
+Printing clock  summary report in "C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\my_mss_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 105MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 107MB)
+
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance CoreResetP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance CoreResetP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance CoreResetP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance CoreResetP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance CoreResetP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance CoreResetP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance CoreResetP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance CoreResetP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance CoreResetP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance CoreResetP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance CoreResetP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance CoreResetP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance CoreResetP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance CoreResetP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=21  set on top level netlist my_mss
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                                  Requested     Requested     Clock        Clock                   Clock
+Clock                                                  Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------------
+my_mss_FCCC_0_FCCC|GL0_net_inferred_clock              100.0 MHz     10.000        inferred     Inferred_clkgroup_0     39   
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     15   
+=============================================================================================================================
+
+@W: MT530 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Found inferred clock my_mss_FCCC_0_FCCC|GL0_net_inferred_clock which controls 39 sequential elements including CoreResetP_0.sm0_state[0:6]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Found inferred clock my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including CoreResetP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\my_mss.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 50MB peak: 136MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Sep 20 14:33:43 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Sep 20 14:33:43 2018
+
+Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 136MB)
+
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance CoreResetP_0.sdif3_spll_lock_q1 because it is equivalent to instance CoreResetP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CoreResetP_0.CONFIG2_DONE_q1 because it is equivalent to instance CoreResetP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CoreResetP_0.CONFIG2_DONE_clk_base because it is equivalent to instance CoreResetP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CoreResetP_0.CONFIG1_DONE_clk_base because it is equivalent to instance CoreResetP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance CoreResetP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance CoreResetP_0.sdif2_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance CoreResetP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance CoreResetP_0.sdif1_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance CoreResetP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance CoreResetP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance CoreResetP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance CoreResetP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance CoreResetP_0.sdif2_areset_n_rcosc because it is equivalent to instance CoreResetP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance CoreResetP_0.sdif3_areset_n_rcosc because it is equivalent to instance CoreResetP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     7.97ns		  15 /        29
+@N: FP130 |Promoting Net CoreResetP_0.sm0_areset_n_clk_base on CLKINT  I_1 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 30 clock pin(s) of sequential element(s)
+0 instances converted, 30 sequential instances remain driven by gated/generated clocks
+
+=========================================================================== Gated/Generated Clocks ===========================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                     Explanation                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_0.CCC_INST            CCC                    27         my_mss_MSS_0.MSS_ADLIB_INST         No gated clock conversion method for cell cell:work.MSS_010
+@K:CKID0002       OSC_0.I_RCOSC_25_50MHZ     RCOSC_25_50MHZ         3          CoreResetP_0.sm0_areset_n_rcosc     No gated clock conversion method for cell cell:ACG4.SLE    
+==============================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 136MB)
+
+Writing Analyst data base C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\synwork\my_mss_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 136MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\my_mss.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+@W: MT246 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\work\my_mss\fccc_0\my_mss_fccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:OSC_0.RCOSC_25_50MHZ_CCC"
+@W: MT420 |Found inferred clock my_mss_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Sep 20 14:33:44 2018
+#
+
+
+Top view:               my_mss
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\designer\my_mss\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 8.304
+
+                                                       Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                         Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+my_mss_FCCC_0_FCCC|GL0_net_inferred_clock              100.0 MHz     589.7 MHz     10.000        1.696         8.304     inferred     Inferred_clkgroup_0
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     972.8 MHz     10.000        1.028         8.972     inferred     Inferred_clkgroup_1
+System                                                 100.0 MHz     NA            10.000        NA            NA        system       system_clkgroup    
+=========================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                            Ending                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+my_mss_FCCC_0_FCCC|GL0_net_inferred_clock           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock           |  10.000      8.304  |  No paths    -      |  No paths    -      |  No paths    -    
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  10.000      8.972  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: my_mss_FCCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                               Starting                                                                                         Arrival          
+Instance                                       Reference                                     Type     Pin     Net                               Time        Slack
+                                               Clock                                                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sdif3_spll_lock_q2                my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sdif3_spll_lock_q2                0.108       8.304
+CoreResetP_0.ddr_settled_clk_base              my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ddr_settled_clk_base              0.108       8.486
+CoreResetP_0.sm0_state[4]                      my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[4]                      0.087       8.545
+CoreResetP_0.sm0_state[1]                      my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[1]                      0.108       8.557
+CoreResetP_0.FIC_2_APB_M_PRESET_N_clk_base     my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_clk_base     0.087       8.621
+CoreResetP_0.RESET_N_M2F_clk_base              my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_clk_base              0.087       8.632
+CoreResetP_0.mss_ready_state                   my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       mss_ready_state                   0.108       8.646
+CoreResetP_0.sm0_state[2]                      my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[2]                      0.087       8.660
+CoreResetP_0.mss_ready_select                  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       mss_ready_select                  0.087       8.749
+CoreResetP_0.sm0_state[3]                      my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[3]                      0.087       8.749
+=================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                                                             Required          
+Instance                            Reference                                     Type     Pin     Net                                   Time         Slack
+                                    Clock                                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sm0_state[1]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[5]                       9.745        8.304
+CoreResetP_0.sm0_state[4]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[2]                       9.745        8.304
+CoreResetP_0.sm0_state[2]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[4]                       9.745        8.345
+CoreResetP_0.sm0_state[0]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sm0_state_ns_a3[6]                    9.662        8.358
+CoreResetP_0.sm0_state[3]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sdif3_spll_lock_q2                    9.662        8.604
+CoreResetP_0.MSS_HPMS_READY_int     my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       MSS_HPMS_READY_int_3                  9.745        8.621
+CoreResetP_0.mss_ready_select       my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      un6_fic_2_apb_m_preset_n_clk_base     9.662        8.634
+CoreResetP_0.mss_ready_state        my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      RESET_N_M2F_clk_base                  9.662        8.765
+CoreResetP_0.sm0_state[3]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state[4]                          9.745        8.868
+CoreResetP_0.INIT_DONE_int          my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sm0_state[0]                          9.662        8.869
+===========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      1.440
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     8.304
+
+    Number of logic level(s):                1
+    Starting point:                          CoreResetP_0.sdif3_spll_lock_q2 / Q
+    Ending point:                            CoreResetP_0.sm0_state[4] / D
+    The start point is clocked by            my_mss_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            my_mss_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                                Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+CoreResetP_0.sdif3_spll_lock_q2     SLE      Q        Out     0.108     0.108       -         
+sdif3_spll_lock_q2                  Net      -        -       0.951     -           5         
+CoreResetP_0.sm0_state_ns[2]        CFG3     C        In      -         1.059       -         
+CoreResetP_0.sm0_state_ns[2]        CFG3     Y        Out     0.223     1.282       -         
+sm0_state_ns[2]                     Net      -        -       0.159     -           1         
+CoreResetP_0.sm0_state[4]           SLE      D        In      -         1.440       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 1.696 is 0.587(34.6%) logic and 1.109(65.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                                                          Arrival          
+Instance                                 Reference                                              Type     Pin     Net                       Time        Slack
+                                         Clock                                                                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sdif0_areset_n_rcosc_q1     my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc_q1     0.087       8.972
+============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                                                          Required          
+Instance                            Reference                                              Type     Pin     Net                       Time         Slack
+                                    Clock                                                                                                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sm0_areset_n_rcosc     my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sm0_areset_n_rcosc_q1     9.745        8.972
+========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      0.773
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.972
+
+    Number of logic level(s):                0
+    Starting point:                          CoreResetP_0.sdif0_areset_n_rcosc_q1 / Q
+    Ending point:                            CoreResetP_0.sm0_areset_n_rcosc / D
+    The start point is clocked by            my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+CoreResetP_0.sdif0_areset_n_rcosc_q1     SLE      Q        Out     0.087     0.087       -         
+sm0_areset_n_rcosc_q1                    Net      -        -       0.685     -           1         
+CoreResetP_0.sm0_areset_n_rcosc          SLE      D        In      -         0.773       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 1.028 is 0.343(33.3%) logic and 0.685(66.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+---------------------------------------
+Resource Usage Report for my_mss 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CCC             1 use
+CLKINT          3 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG2           2 uses
+CFG3           3 uses
+CFG4           2 uses
+
+
+Sequential Cells: 
+SLE            29 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 89
+I/O primitives: 88
+INBUF          35 uses
+OUTBUF         53 uses
+
+
+Global Clock Buffers: 3 of 8 (37%)
+
+
+Total LUTs:    7
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  29 + 0 + 0 + 0 = 29;
+Total number of LUTs after P&R:  7 + 0 + 0 + 0 = 7;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 136MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Sep 20 14:33:44 2018
+
+###########################################################]

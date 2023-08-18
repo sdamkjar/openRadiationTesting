@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="EFM32GG11B820F2048GL192" partId="mcu.arm.efm32.gg11.efm32gg11b820f2048gl192" contextId="com.silabs.sdk.stack.super:2.3.0._310455069">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="I2C2" propertyId="I2C.BSP_I2C_SCL.PIN" value="PI5"/>
+    <property object="I2C2" propertyId="I2C.BSP_I2C_SDA.PIN" value="PI4"/>
+    <property object="LEUART0" propertyId="LEUART.BSP_LEUART_RX.PIN" value="PD5"/>
+    <property object="LEUART0" propertyId="LEUART.BSP_LEUART_TX.PIN" value="PC14"/>
+    <property object="LEUART1" propertyId="LEUART.BSP_LEUART_RX.PIN" value="PC7"/>
+    <property object="LEUART1" propertyId="LEUART.BSP_LEUART_TX.PIN" value="PC6"/>
+    <property object="PA0" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA1" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA10" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA12" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA15" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA2" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA3" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA4" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA5" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA6" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA7" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PA9" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB0" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB1" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB10" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB11" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB12" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB13" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB14" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB15" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB2" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB3" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB4" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB5" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB6" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB7" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB8" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PB9" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PC0" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PC1" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PC2" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PC3" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PC4" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PC5" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PC8" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PC9" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD0" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD10" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD11" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD12" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD13" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD14" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD15" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD2" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD3" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD4" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PD7" propertyId="ports.settings.custompinname" value=""/>
+    <property object="PD9" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE0" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE1" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE10" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE11" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE12" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE13" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE14" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE15" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE4" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE5" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE6" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE7" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE8" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PE9" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF0" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF1" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF10" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF11" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF12" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF14" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF15" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF2" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF3" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF4" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF6" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF7" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF8" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PF9" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG0" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG1" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG10" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG11" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG12" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG13" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG14" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG2" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG3" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG4" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG5" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PG9" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH10" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH11" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH12" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH13" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH14" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH15" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH4" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH5" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH7" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH8" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PH9" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PI10" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PI13" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PI14" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PI15" propertyId="ports.settings.reserve" value="Not allowed"/>
+    <property object="PORTIO" propertyId="portio.i2c1.location.i2c1_sdaloc" value="1"/>
+    <property object="PORTIO" propertyId="portio.i2c2.enable.scl" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c2.enable.sda" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c2.location.i2c2_sclloc" value="7"/>
+    <property object="PORTIO" propertyId="portio.i2c2.location.i2c2_sdaloc" value="7"/>
+    <property object="PORTIO" propertyId="portio.leuart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.leuart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.leuart0.location.leuart0_txloc" value="5"/>
+    <property object="PORTIO" propertyId="portio.leuart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.leuart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.uart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.uart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.uart0.location.uart0_rxloc" value="3"/>
+    <property object="PORTIO" propertyId="portio.uart0.location.uart0_txloc" value="6"/>
+    <property object="PORTIO" propertyId="portio.uart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.uart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.usart0_rxloc" value="2"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.usart0_txloc" value="2"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.usart1_rxloc" value="2"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.usart1_txloc" value="6"/>
+    <property object="PORTIO" propertyId="portio.usart2.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart2.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart2.location.usart2_rxloc" value="2"/>
+    <property object="PORTIO" propertyId="portio.usart2.location.usart2_txloc" value="3"/>
+    <property object="PORTIO" propertyId="portio.usart3.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart3.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart3.location.usart3_rxloc" value="3"/>
+    <property object="PORTIO" propertyId="portio.usart3.location.usart3_txloc" value="3"/>
+    <property object="PORTIO" propertyId="portio.usart4.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart4.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart4.location.usart4_rxloc" value="2"/>
+    <property object="PORTIO" propertyId="portio.usart4.location.usart4_txloc" value="3"/>
+    <property object="UART0" propertyId="UART.BSP_UART_RX.PIN" value="PC15"/>
+    <property object="UART0" propertyId="UART.BSP_UART_TX.PIN" value="PD7"/>
+    <property object="UART1" propertyId="UART.BSP_UART_RX.PIN" value="PC13"/>
+    <property object="UART1" propertyId="UART.BSP_UART_TX.PIN" value="PC12"/>
+    <property object="USART0" propertyId="USART.BSP_USART_CLK.PIN" value="PE12"/>
+    <property object="USART0" propertyId="USART.BSP_USART_CS.PIN" value="PE13"/>
+    <property object="USART0" propertyId="USART.BSP_USART_CTS.PIN" value="PE14"/>
+    <property object="USART0" propertyId="USART.BSP_USART_MISO.PIN" value="PC10"/>
+    <property object="USART0" propertyId="USART.BSP_USART_MOSI.PIN" value="PC11"/>
+    <property object="USART0" propertyId="USART.BSP_USART_RTS.PIN" value="PE15"/>
+    <property object="USART0" propertyId="USART.BSP_USART_RX.PIN" value="PC10"/>
+    <property object="USART0" propertyId="USART.BSP_USART_TX.PIN" value="PC11"/>
+    <property object="USART1" propertyId="USART.BSP_USART_CLK.PIN" value="PB7"/>
+    <property object="USART1" propertyId="USART.BSP_USART_CS.PIN" value="PB8"/>
+    <property object="USART1" propertyId="USART.BSP_USART_CTS.PIN" value="PB9"/>
+    <property object="USART1" propertyId="USART.BSP_USART_MISO.PIN" value="PD6"/>
+    <property object="USART1" propertyId="USART.BSP_USART_MOSI.PIN" value="PA14"/>
+    <property object="USART1" propertyId="USART.BSP_USART_RTS.PIN" value="PB10"/>
+    <property object="USART1" propertyId="USART.BSP_USART_RX.PIN" value="PD6"/>
+    <property object="USART1" propertyId="USART.BSP_USART_TX.PIN" value="PA14"/>
+    <property object="USART2" propertyId="USART.BSP_USART_CLK.PIN" value="PC4"/>
+    <property object="USART2" propertyId="USART.BSP_USART_CS.PIN" value="PC5"/>
+    <property object="USART2" propertyId="USART.BSP_USART_CTS.PIN" value="PC1"/>
+    <property object="USART2" propertyId="USART.BSP_USART_MISO.PIN" value="PA8"/>
+    <property object="USART2" propertyId="USART.BSP_USART_MOSI.PIN" value="PA13"/>
+    <property object="USART2" propertyId="USART.BSP_USART_RTS.PIN" value="PC0"/>
+    <property object="USART2" propertyId="USART.BSP_USART_RX.PIN" value="PA8"/>
+    <property object="USART2" propertyId="USART.BSP_USART_TX.PIN" value="PA13"/>
+    <property object="USART3" propertyId="USART.BSP_USART_CLK.PIN" value="PA2"/>
+    <property object="USART3" propertyId="USART.BSP_USART_CS.PIN" value="PA3"/>
+    <property object="USART3" propertyId="USART.BSP_USART_CTS.PIN" value="PA4"/>
+    <property object="USART3" propertyId="USART.BSP_USART_MISO.PIN" value="PG7"/>
+    <property object="USART3" propertyId="USART.BSP_USART_MOSI.PIN" value="PG6"/>
+    <property object="USART3" propertyId="USART.BSP_USART_RTS.PIN" value="PA5"/>
+    <property object="USART3" propertyId="USART.BSP_USART_RX.PIN" value="PG7"/>
+    <property object="USART3" propertyId="USART.BSP_USART_TX.PIN" value="PG6"/>
+    <property object="USART4" propertyId="USART.BSP_USART_CLK.PIN" value="PC4"/>
+    <property object="USART4" propertyId="USART.BSP_USART_CS.PIN" value="PC5"/>
+    <property object="USART4" propertyId="USART.BSP_USART_CTS.PIN" value="PA7"/>
+    <property object="USART4" propertyId="USART.BSP_USART_MISO.PIN" value="PI1"/>
+    <property object="USART4" propertyId="USART.BSP_USART_MOSI.PIN" value="PI6"/>
+    <property object="USART4" propertyId="USART.BSP_USART_RTS.PIN" value="PA8"/>
+    <property object="USART4" propertyId="USART.BSP_USART_RX.PIN" value="PI1"/>
+    <property object="USART4" propertyId="USART.BSP_USART_TX.PIN" value="PI6"/>
+    <property object="USART5" propertyId="USART.BSP_USART_CLK.PIN" value="PB11"/>
+    <property object="USART5" propertyId="USART.BSP_USART_CS.PIN" value="PB13"/>
+    <property object="USART5" propertyId="USART.BSP_USART_CTS.PIN" value="PB14"/>
+    <property object="USART5" propertyId="USART.BSP_USART_MISO.PIN" value="PE9"/>
+    <property object="USART5" propertyId="USART.BSP_USART_MOSI.PIN" value="PE8"/>
+    <property object="USART5" propertyId="USART.BSP_USART_RTS.PIN" value="PB12"/>
+    <property object="USART5" propertyId="USART.BSP_USART_RX.PIN" value="PE9"/>
+    <property object="USART5" propertyId="USART.BSP_USART_TX.PIN" value="PE8"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>

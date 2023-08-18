@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\MyFirstProject.vhd":17:7:17:20|Top entity is set to MyFirstProject.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\MyFirstProject.vhd":17:7:17:20|Synthesizing work.myfirstproject.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\OSC_0\MyFirstProject_OSC_0_OSC.vhd":8:7:8:30|Synthesizing work.myfirstproject_osc_0_osc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject_MSS\MyFirstProject_MSS.vhd":17:7:17:24|Synthesizing work.myfirstproject_mss.rtl.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject_MSS\MyFirstProject_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+@N: CD630 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\hdl\MyCounter.vhd":6:7:6:15|Synthesizing work.mycounter.behavioral.
+@N: CL159 :"C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\component\work\MyFirstProject\OSC_0\MyFirstProject_OSC_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+
+Date      :  Thu Sep 20 14:33:03 2018
+Project   :  C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject
+Component :  my_mss_top
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/my_mss_top/my_mss_top.vhd
+

@@ -1,0 +1,21 @@
+@P:  Worst Slack : 8.304
+@P:  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 589.7 MHz
+@P:  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 1.696
+@P:  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock - Slack : 8.304
+@P:  my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : 972.8 MHz
+@P:  my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : 1.028
+@P:  my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period : 10.000
+@P:  my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack : 8.972
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P: my_mss Part : m2s010tq144std
+@P: my_mss Register bits  : 29 
+@P: my_mss DSP Blocks  : 0
+@P: my_mss I/O primitives : 88
+@P:  CPU Time : 0h:00m:00s

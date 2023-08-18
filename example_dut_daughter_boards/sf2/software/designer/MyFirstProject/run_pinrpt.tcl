@@ -1,0 +1,10 @@
+DESIGN=MyFirstProject
+DESDIR=C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\designer\MyFirstProject
+TARGET_DIR=C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\designer\MyFirstProject
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\designer\impl1\my_mss.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\my_mss.edn;edn"
+VALUE "C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\constraint\io\user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\my_mss_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

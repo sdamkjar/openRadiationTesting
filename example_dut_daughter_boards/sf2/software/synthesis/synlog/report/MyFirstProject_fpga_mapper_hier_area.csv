@@ -1,0 +1,6 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. MyFirstProject, 23, 1, 23, 0, 0, 0, 0, 2, 4
+.	. MyCounter, 23, 1, 23, 0, 0, 0, 0, 0, 0
+.	. MyFirstProject_MSS, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. MyFirstProject_OSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0

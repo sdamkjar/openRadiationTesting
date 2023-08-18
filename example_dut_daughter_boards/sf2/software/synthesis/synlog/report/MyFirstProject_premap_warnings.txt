@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\hdl\mycounter.vhd":18:2:18:3|Found inferred clock MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 24 sequential elements including MyCounter_0.Qaux[22:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+
+Date      :  Thu Sep 20 13:44:57 2018
+Project   :  C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject
+Component :  RAM_with_wrapper
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/RAM_with_wrapper/RAM_with_wrapper.vhd
+    C:/Users/sdamkjar/Documents/albertasat/TRIUMF/Software/SMARTFUSION2_TEST/MyFirstProject/component/work/RAM_with_wrapper/SRAM_64x8_0/RAM_with_wrapper_SRAM_64x8_0_TPSRAM.vhd
+

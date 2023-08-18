@@ -1,0 +1,11 @@
+@P:  Worst Slack : 7.088
+@P:  MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Estimated Frequency : 343.4 MHz
+@P:  MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Estimated Period : 2.912
+@P:  MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Requested Period : 10.000
+@P:  MyFirstProject_OSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Slack : 7.088
+@P: MyFirstProject Part : m2s010tq144std
+@P: MyFirstProject Register bits  : 23 
+@P: MyFirstProject DSP Blocks  : 0
+@P: MyFirstProject I/O primitives : 4
+@P:  CPU Time : 0h:00m:00s

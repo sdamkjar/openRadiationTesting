@@ -1,0 +1,21 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
+0 instances converted, 24 sequential instances remain driven by gated/generated clocks
+
+============================================================================= Gated/Generated Clocks =============================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                         Explanation                                                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       OSC_0.I_RCOSC_25_50MHZ     RCOSC_25_50MHZ         24         MyFirstProject_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
+==================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

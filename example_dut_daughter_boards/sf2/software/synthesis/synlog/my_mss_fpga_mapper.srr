@@ -1,0 +1,401 @@
+# Thu Sep 20 14:33:43 2018
+
+Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 136MB)
+
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance CoreResetP_0.sdif3_spll_lock_q1 because it is equivalent to instance CoreResetP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CoreResetP_0.CONFIG2_DONE_q1 because it is equivalent to instance CoreResetP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CoreResetP_0.CONFIG2_DONE_clk_base because it is equivalent to instance CoreResetP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CoreResetP_0.CONFIG1_DONE_clk_base because it is equivalent to instance CoreResetP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance CoreResetP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance CoreResetP_0.sdif2_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance CoreResetP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance CoreResetP_0.sdif1_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance CoreResetP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance CoreResetP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance CoreResetP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance CoreResetP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance CoreResetP_0.sdif2_areset_n_rcosc because it is equivalent to instance CoreResetP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance CoreResetP_0.sdif3_areset_n_rcosc because it is equivalent to instance CoreResetP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     7.97ns		  15 /        29
+@N: FP130 |Promoting Net CoreResetP_0.sm0_areset_n_clk_base on CLKINT  I_1 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 30 clock pin(s) of sequential element(s)
+0 instances converted, 30 sequential instances remain driven by gated/generated clocks
+
+=========================================================================== Gated/Generated Clocks ===========================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                     Explanation                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_0.CCC_INST            CCC                    27         my_mss_MSS_0.MSS_ADLIB_INST         No gated clock conversion method for cell cell:work.MSS_010
+@K:CKID0002       OSC_0.I_RCOSC_25_50MHZ     RCOSC_25_50MHZ         3          CoreResetP_0.sm0_areset_n_rcosc     No gated clock conversion method for cell cell:ACG4.SLE    
+==============================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 136MB)
+
+Writing Analyst data base C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\synwork\my_mss_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 136MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\synthesis\my_mss.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+@W: MT246 :"c:\users\sdamkjar\documents\albertasat\triumf\software\smartfusion2_test\myfirstproject\component\work\my_mss\fccc_0\my_mss_fccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:OSC_0.RCOSC_25_50MHZ_CCC"
+@W: MT420 |Found inferred clock my_mss_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Sep 20 14:33:44 2018
+#
+
+
+Top view:               my_mss
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\sdamkjar\Documents\albertasat\TRIUMF\Software\SMARTFUSION2_TEST\MyFirstProject\designer\my_mss\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 8.304
+
+                                                       Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                         Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+my_mss_FCCC_0_FCCC|GL0_net_inferred_clock              100.0 MHz     589.7 MHz     10.000        1.696         8.304     inferred     Inferred_clkgroup_0
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     972.8 MHz     10.000        1.028         8.972     inferred     Inferred_clkgroup_1
+System                                                 100.0 MHz     NA            10.000        NA            NA        system       system_clkgroup    
+=========================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                            Ending                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+my_mss_FCCC_0_FCCC|GL0_net_inferred_clock           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock           |  10.000      8.304  |  No paths    -      |  No paths    -      |  No paths    -    
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  10.000      8.972  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: my_mss_FCCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                               Starting                                                                                         Arrival          
+Instance                                       Reference                                     Type     Pin     Net                               Time        Slack
+                                               Clock                                                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sdif3_spll_lock_q2                my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sdif3_spll_lock_q2                0.108       8.304
+CoreResetP_0.ddr_settled_clk_base              my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ddr_settled_clk_base              0.108       8.486
+CoreResetP_0.sm0_state[4]                      my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[4]                      0.087       8.545
+CoreResetP_0.sm0_state[1]                      my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[1]                      0.108       8.557
+CoreResetP_0.FIC_2_APB_M_PRESET_N_clk_base     my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_clk_base     0.087       8.621
+CoreResetP_0.RESET_N_M2F_clk_base              my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_clk_base              0.087       8.632
+CoreResetP_0.mss_ready_state                   my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       mss_ready_state                   0.108       8.646
+CoreResetP_0.sm0_state[2]                      my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[2]                      0.087       8.660
+CoreResetP_0.mss_ready_select                  my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       mss_ready_select                  0.087       8.749
+CoreResetP_0.sm0_state[3]                      my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[3]                      0.087       8.749
+=================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                                                             Required          
+Instance                            Reference                                     Type     Pin     Net                                   Time         Slack
+                                    Clock                                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sm0_state[1]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[5]                       9.745        8.304
+CoreResetP_0.sm0_state[4]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[2]                       9.745        8.304
+CoreResetP_0.sm0_state[2]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[4]                       9.745        8.345
+CoreResetP_0.sm0_state[0]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sm0_state_ns_a3[6]                    9.662        8.358
+CoreResetP_0.sm0_state[3]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sdif3_spll_lock_q2                    9.662        8.604
+CoreResetP_0.MSS_HPMS_READY_int     my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       MSS_HPMS_READY_int_3                  9.745        8.621
+CoreResetP_0.mss_ready_select       my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      un6_fic_2_apb_m_preset_n_clk_base     9.662        8.634
+CoreResetP_0.mss_ready_state        my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      RESET_N_M2F_clk_base                  9.662        8.765
+CoreResetP_0.sm0_state[3]           my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state[4]                          9.745        8.868
+CoreResetP_0.INIT_DONE_int          my_mss_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sm0_state[0]                          9.662        8.869
+===========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      1.440
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     8.304
+
+    Number of logic level(s):                1
+    Starting point:                          CoreResetP_0.sdif3_spll_lock_q2 / Q
+    Ending point:                            CoreResetP_0.sm0_state[4] / D
+    The start point is clocked by            my_mss_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            my_mss_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                                Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+CoreResetP_0.sdif3_spll_lock_q2     SLE      Q        Out     0.108     0.108       -         
+sdif3_spll_lock_q2                  Net      -        -       0.951     -           5         
+CoreResetP_0.sm0_state_ns[2]        CFG3     C        In      -         1.059       -         
+CoreResetP_0.sm0_state_ns[2]        CFG3     Y        Out     0.223     1.282       -         
+sm0_state_ns[2]                     Net      -        -       0.159     -           1         
+CoreResetP_0.sm0_state[4]           SLE      D        In      -         1.440       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 1.696 is 0.587(34.6%) logic and 1.109(65.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                                                          Arrival          
+Instance                                 Reference                                              Type     Pin     Net                       Time        Slack
+                                         Clock                                                                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sdif0_areset_n_rcosc_q1     my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc_q1     0.087       8.972
+============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                                                          Required          
+Instance                            Reference                                              Type     Pin     Net                       Time         Slack
+                                    Clock                                                                                                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sm0_areset_n_rcosc     my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sm0_areset_n_rcosc_q1     9.745        8.972
+========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      0.773
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.972
+
+    Number of logic level(s):                0
+    Starting point:                          CoreResetP_0.sdif0_areset_n_rcosc_q1 / Q
+    Ending point:                            CoreResetP_0.sm0_areset_n_rcosc / D
+    The start point is clocked by            my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            my_mss_OSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+CoreResetP_0.sdif0_areset_n_rcosc_q1     SLE      Q        Out     0.087     0.087       -         
+sm0_areset_n_rcosc_q1                    Net      -        -       0.685     -           1         
+CoreResetP_0.sm0_areset_n_rcosc          SLE      D        In      -         0.773       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 1.028 is 0.343(33.3%) logic and 0.685(66.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+---------------------------------------
+Resource Usage Report for my_mss 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CCC             1 use
+CLKINT          3 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG2           2 uses
+CFG3           3 uses
+CFG4           2 uses
+
+
+Sequential Cells: 
+SLE            29 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 89
+I/O primitives: 88
+INBUF          35 uses
+OUTBUF         53 uses
+
+
+Global Clock Buffers: 3 of 8 (37%)
+
+
+Total LUTs:    7
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  29 + 0 + 0 + 0 = 29;
+Total number of LUTs after P&R:  7 + 0 + 0 + 0 = 7;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 136MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Sep 20 14:33:44 2018
+
+###########################################################]
